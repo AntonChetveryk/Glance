@@ -1,0 +1,30 @@
+body {
+  color: #343a40;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.about-img {
+  height: 500px;
+  width: 100%;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(5px 5px 3px #c5c989);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .about-img {
+    height: 600px;
+  }
+}
